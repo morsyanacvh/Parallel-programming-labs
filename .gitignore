@@ -17,7 +17,7 @@ __pycache__/
 benchmark_results/*
 
 # ИСКЛЮЧЕНИЯ: Сохраняем одну папку с примером для демонстрации в репозитории
-!benchmark_results/run_N10/
-!benchmark_results/run_N10/*.txt
+!benchmark_results/run_N100/
+!benchmark_results/run_N100/*.txt
 !benchmark_results/benchmark_report.md
 !benchmark_results/benchmark_plot.png
