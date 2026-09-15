@@ -1,16 +1,21 @@
-# Matrix Multiplication Benchmark & Verification (C++ / Python)
+# Автоматизированный бенчмаркинг перемножения матриц (C++ / Python)
 
-This project performs square matrix multiplication in C++ with optimal memory layout ($O(N^3)$ algorithm), measures runtime and FLOP workload, and automatically verifies numerical correctness using Python (NumPy).
+Проект предназначен для вычисления произведения двух квадратных матриц на языке C++, автоматической верификации результатов с помощью Python (NumPy), а также для анализа производительности алгоритма в зависимости от размерности задачи и объема операций (FLOP).
 
-## Features
-- **C++ Core**: High-performance $O(N^3)$ matrix multiplication.
-- **Python Benchmark Automation**: Runs tests across multiple matrix dimensions, checks precision (`numpy.allclose`), and logs execution metrics.
-- **Visualization & Reporting**: Saves performance plots and exports detailed Markdown reports.
+## 📌 Основные возможности
 
-## Requirements
-- `g++` compiler supporting C++17
-- Python 3.x
-- Python packages: `numpy`, `matplotlib`
+* **Вычисления на C++**: Реализация алгоритма умножения матриц с оптимизированным порядком циклов (`i-k-j`) для эффективной работы с процессорным кэшем.
+* **Автоматическая верификация**: Сверка результирующей матрицы с эталоном NumPy (`numpy.allclose`) с контролем точности до плавающей запятой.
+* **Автоматизация бенчмаркинга**: Python-скрипт запрашивает у пользователя список размерностей, генерирует тестовые наборы данных, запускает C++ модуль и рассчитывает объем операций.
+* **Структурирование результатов**: Автоматическое сохранение результатов в подпапки `benchmark_results/run_N<size>/` и генерация итогового отчета в формате Markdown.
+* **Визуализация**: Построение и экспорт графиков производительности (время vs размерность, время vs FLOP).
 
-```bash
-pip install numpy matplotlib
+---
+
+## 🛠 Требования к окружению
+
+* **Компилятор C++**: `g++` с поддержкой стандарта C++17.
+* **Python**: Версия 3.8 или выше.
+* **Зависимости Python**:
+  ```bash
+  pip install numpy matplotlib
