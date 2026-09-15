@@ -19,3 +19,5 @@
 * **Зависимости Python**:
   ```bash
   pip install numpy matplotlib
+
+![График бенчмаркинга](benchmark_plot.png)
