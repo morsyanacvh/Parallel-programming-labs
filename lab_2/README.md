@@ -38,7 +38,7 @@
 
 Графики времени выполнения и ускорения:
 
-![OpenMP Benchmark Laptop](openmp_benchmark_plot_laptop.jpg)
+![OpenMP Benchmark Laptop](openmp_benchmark_plot_laptop.png)
 
 **Сводные данные времени выполнения ($N=4096$):**
 * **1 поток**: 38 059.67 ms (38.06 с) — $Speedup = 1.00x$
@@ -58,7 +58,7 @@
 
 Графики времени выполнения и ускорения:
 
-![OpenMP Benchmark Desktop](openmp_benchmark_plot_desktop.jpg)
+![OpenMP Benchmark Desktop](openmp_benchmark_plot_desktop.png)
 
 **Сводные данные времени выполнения ($N=4096$):**
 * **1 поток**: 38 426.46 ms (38.43 с) — $Speedup = 1.00x$
