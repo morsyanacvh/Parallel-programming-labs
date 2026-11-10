@@ -1,0 +1,97 @@
+==================================================
+ Starting Full Matrix Benchmark Suite
+==================================================
+--------------------------------------------------
+-> Testing Matrix Size: 128x128 | Processes (np): 1
+[SUCCESS] Size=128, np=1 -> 3.921 ms
+--------------------------------------------------
+-> Testing Matrix Size: 128x128 | Processes (np): 2
+[SUCCESS] Size=128, np=2 -> 1.706 ms
+--------------------------------------------------
+-> Testing Matrix Size: 128x128 | Processes (np): 4
+[SUCCESS] Size=128, np=4 -> 0.760 ms
+--------------------------------------------------
+-> Testing Matrix Size: 128x128 | Processes (np): 8
+[SUCCESS] Size=128, np=8 -> 0.310 ms
+--------------------------------------------------
+-> Testing Matrix Size: 128x128 | Processes (np): 16
+[SUCCESS] Size=128, np=16 -> 0.143 ms
+--------------------------------------------------
+-> Testing Matrix Size: 256x256 | Processes (np): 1
+[SUCCESS] Size=256, np=1 -> 27.463 ms
+--------------------------------------------------
+-> Testing Matrix Size: 256x256 | Processes (np): 2
+[SUCCESS] Size=256, np=2 -> 13.143 ms
+--------------------------------------------------
+-> Testing Matrix Size: 256x256 | Processes (np): 4
+[SUCCESS] Size=256, np=4 -> 5.469 ms
+--------------------------------------------------
+-> Testing Matrix Size: 256x256 | Processes (np): 8
+[SUCCESS] Size=256, np=8 -> 2.539 ms
+--------------------------------------------------
+-> Testing Matrix Size: 256x256 | Processes (np): 16
+[SUCCESS] Size=256, np=16 -> 1.449 ms
+--------------------------------------------------
+-> Testing Matrix Size: 512x512 | Processes (np): 1
+[SUCCESS] Size=512, np=1 -> 154.302 ms
+--------------------------------------------------
+-> Testing Matrix Size: 512x512 | Processes (np): 2
+[SUCCESS] Size=512, np=2 -> 81.159 ms
+--------------------------------------------------
+-> Testing Matrix Size: 512x512 | Processes (np): 4
+[SUCCESS] Size=512, np=4 -> 40.478 ms
+--------------------------------------------------
+-> Testing Matrix Size: 512x512 | Processes (np): 8
+[SUCCESS] Size=512, np=8 -> 20.741 ms
+--------------------------------------------------
+-> Testing Matrix Size: 512x512 | Processes (np): 16
+[SUCCESS] Size=512, np=16 -> 10.104 ms
+--------------------------------------------------
+-> Testing Matrix Size: 1024x1024 | Processes (np): 1
+[SUCCESS] Size=1024, np=1 -> 1019.867 ms
+--------------------------------------------------
+-> Testing Matrix Size: 1024x1024 | Processes (np): 2
+[SUCCESS] Size=1024, np=2 -> 579.183 ms
+--------------------------------------------------
+-> Testing Matrix Size: 1024x1024 | Processes (np): 4
+[SUCCESS] Size=1024, np=4 -> 314.174 ms
+--------------------------------------------------
+-> Testing Matrix Size: 1024x1024 | Processes (np): 8
+[SUCCESS] Size=1024, np=8 -> 198.743 ms
+--------------------------------------------------
+-> Testing Matrix Size: 1024x1024 | Processes (np): 16
+[SUCCESS] Size=1024, np=16 -> 117.125 ms
+--------------------------------------------------
+-> Testing Matrix Size: 2048x2048 | Processes (np): 1
+[SUCCESS] Size=2048, np=1 -> 8977.359 ms
+--------------------------------------------------
+-> Testing Matrix Size: 2048x2048 | Processes (np): 2
+[SUCCESS] Size=2048, np=2 -> 4299.424 ms
+--------------------------------------------------
+-> Testing Matrix Size: 2048x2048 | Processes (np): 4
+[SUCCESS] Size=2048, np=4 -> 2285.147 ms
+--------------------------------------------------
+-> Testing Matrix Size: 2048x2048 | Processes (np): 8
+[SUCCESS] Size=2048, np=8 -> 1796.517 ms
+--------------------------------------------------
+-> Testing Matrix Size: 2048x2048 | Processes (np): 16
+[SUCCESS] Size=2048, np=16 -> 877.636 ms
+--------------------------------------------------
+-> Testing Matrix Size: 4096x4096 | Processes (np): 1
+[SUCCESS] Size=4096, np=1 -> 77096.675 ms
+--------------------------------------------------
+-> Testing Matrix Size: 4096x4096 | Processes (np): 2
+[SUCCESS] Size=4096, np=2 -> 34823.938 ms
+--------------------------------------------------
+-> Testing Matrix Size: 4096x4096 | Processes (np): 4
+[SUCCESS] Size=4096, np=4 -> 18080.387 ms
+--------------------------------------------------
+-> Testing Matrix Size: 4096x4096 | Processes (np): 8
+[SUCCESS] Size=4096, np=8 -> 10117.039 ms
+--------------------------------------------------
+-> Testing Matrix Size: 4096x4096 | Processes (np): 16
+[SUCCESS] Size=4096, np=16 -> 7033.874 ms
+==================================================
+ Benchmark Suite Completed Successfully!
+ Results saved to benchmark_results.csv
+==================================================
